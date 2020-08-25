@@ -7,5 +7,82 @@
   </head>
   <body>
     <!-- TODO: Add week 1 notes -->
+    <h1>Lab 1 Notes</h1>
+    <p>A review of objects in JavaScript</p>
+    <ul>
+      <h2>Objects</h2>
+      <li>Describe a thing</li>
+      <li>Are composed of properties and methods</li>
+      <li>
+        Properties- <br />
+        &emsp; nouns- or things the object is.
+      </li>
+      <li>
+        Methods- <br />
+        &emsp; verbs- or things the object are.
+      </li>
+      <li>
+        Example: Dog <br />
+        var myDog={ <br />
+        &emsp; name: "krog", <br />
+        &emsp; height: 10, <br />
+        &emsp; color: "brown" <br />
+        }
+      </li>
+      <h2>Adding Methods to Objects</h2>
+      <li>
+        JavaScript objects can contain functions, just like they can contain
+        variables.
+      </li>
+      <li>a function inside of an object will be referred to as a method.</li>
+      <li>
+        var myDog={ <br />
+        &emsp; name: "krog", <br />
+        &emsp; height: 10, <br />
+        &emsp; color: "brown", <br />
+        &emsp; bark: function() { <br />
+        &emsp; console.log("Oof oof"), <br />
+        &emsp; } <br />
+        }
+      </li>
+      <h2>Invoking a method from an object</h2>
+      <li>Use the dot operator to access the method and inoke it</li>
+      <li>
+        var myDog={ <br />
+        &emsp; name: "krog", <br />
+        &emsp; height: 10, <br />
+        &emsp; color: "brown", <br />
+        &emsp; bark: function() { <br />
+        &emsp; console.log("Oof oof"), <br />
+        &emsp; } <br />
+        } <br />
+        myDog.bark();
+      </li>
+      <h2>The 'this' keyword</h2>
+      <li>
+        Inside an object, the 'this' keyword refers to the object that the
+        method resides in.
+      </li>
+      <li>
+        It allows you to access the other 'methods' and 'oroperties' in the
+        object.
+      </li>
+      <li>
+        var myDog={ <br />
+        &emsp; name: "krog", <br />
+        &emsp; height: 10, <br />
+        &emsp; color: "brown", <br />
+        &emsp; bark: function() { <br />
+        &emsp; console.log(this.name+ "barks!"), <br />
+        &emsp; } <br />
+        } <br />
+        myDog.bark();
+      </li>
+      <h2>Classes in JavaScript</h2>
+      <li>Represent 'blueprints' of objects</li>
+      <li>They are abstract representations of objects</li>
+      <li>Idea of Dog -> Class</li>
+      <li>Actual Dog -> Object</li>
+    </ul>
   </body>
 </html>
