@@ -20,14 +20,14 @@ class VendingItem {
   }
 }
 
-let firstCandy = new VendingItem("snickers", 1.5, 6, "./media/product_1.svg");
+let firstCandy = new VendingItem("snickers", 1.5, 6, "media/product_1.svg");
 let secondCandy = new VendingItem(
   "3 muskateers",
   1.5,
   4,
-  "./media/product_2.svg"
+  "media/product_2.svg"
 );
-let firstChips = new VendingItem("lays", 0.75, 10, "./media/product_3.svg");
+let firstChips = new VendingItem("lays", 0.75, 10, "media/product_3.svg");
 
 console.log(firstCandy);
 
