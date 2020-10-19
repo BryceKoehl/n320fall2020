@@ -1,45 +1,80 @@
-// class Circle {
-//   constructor(cx, cy, radius, color) {
-//     this.x = cx;
-//     this.y = cy;
-//     this.radius = radius;
-//     this.color = color;
-//     this.speed = 2 + Math.random() * 2;
-//   }
-//   update() {
-//     this.y = this.y + this.speed;
-//     this.speed = this.speed + 0.1;
-//     fill(this.color);
-//     circle(this.x, this.y, this.radius);
-//   }
-// }
-// var myCircles = [];
-// myCircles[0] = new Circle(100, 10, 100, [191, 185, 244]);
-// myCircles[1] = new Circle(300, 10, 100, [172, 216, 209]);
-
-// function setup() {
-//   createCanvas(400, 300);
-// }
-
-// function draw() {
-//   background(20, 13, 79);
-//   myCircles[0].update();
-//   myCircles[1].update();
-// }
-//
-// background color rgb(73,108,120)
-// floor color rgb(33,96,0)
-
-function ground() {
-  fill(33, 96, 0);
-  rect(0, 500, 800, 500);
-}
+let rain = [];
+let floor;
+let dropCount = 0;
+let blue = .05;
 
 function setup() {
   createCanvas(800, 600);
+  floor = new ground();
+  for(var i = 0; i <400; i++){
+    rain[i]= new raindrop();
+  }
+  
 }
 
 function draw() {
-  background(73, 108, 120);
-  ground();
+  
+  background(30, 30, 49); 
+  floor.display();
+  for (var i=0;i<400;i++){
+    rain[i].display();
+    rain[i].fall();
+  }
+  
 }
+
+class raindrop {
+  constructor(){
+    this.x = random(0, width);
+    this.y = random(0, -height);
+    
+  }
+    display() {
+      noStroke();
+      fill(173,213,231);
+      ellipse(this.x,this.y,random(1,5),random(1,5));
+    }
+
+    fall() {
+      this.speed = random(3,9);
+      this.grav = 1.05;
+      this.y += (this.speed*this.grav);
+
+      if (this.y > 500) {
+        this.y = random(0,-height);
+        this.grav= 0;
+        dropCount += 1; 
+        
+       
+        if(dropCount == 10){
+          dropCount = 0;
+          blue = blue + 1;
+          
+        }
+
+      }
+      
+    }
+    
+  }
+
+
+class ground {
+  constructor() {
+    this.x=0;
+    this.y=500;
+    this.w=800;
+    this.h=500;
+  }
+
+  
+    
+
+    display(){
+      fill(0,52,blue);
+      rect(this.x,this.y,this.w,this.h);
+    }    
+
+}
+
+
