@@ -1,0 +1,225 @@
+
+   {
+      "constellations":[
+          {"constellationDetails":{
+            "name":"Aries",
+            "img":"media/Aries",
+            "discription":"The constellation Aries is usually associated with the story of the Golden Fleece in Greek mythology. Like other zodiac constellations, Aries was first catalogued by the Greek astronomer Ptolemy in his Almagest in the  2nd century.",
+            "composition":[
+               "Bharani",
+               "Botein",
+               "Hamal",
+               "Lilii Borea",
+               "Mesarthim",
+               "Mesarthim"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Taurus",
+            "img":"media/Taurus",
+            "discription":"Taurus is a large constellation and one of the oldest ones known. In Greek mythology, the constellation is associated with Zeus, who transformed himself into a bull to get close to Europa and abduct her.",
+            "composition":[
+               "Ain",
+               "Alcyone",
+               "Aldebaran",
+               "Asterope",
+               "Atlas",
+               "Celaeno",
+               "Chamukuy",
+               "Electra",
+               "Elnath",
+               "Hoggar",
+               "Maia",
+               "Merope",
+               "Pleione",
+               "Prima Hyadum",
+               "Secunda Hyadum",
+               "Taygeta",
+               "Tianguan"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Gemini",
+            "img":"media/Gemini",
+            "discription":"Gemini constellation is located in the northern celestial hemisphere. Its name means “the twins” in Latin. The constellation represents the twins Castor and Pollux (Polydeuces), also known as the Dioscuri in ancient times, in Greek mythology.",
+            "composition":[
+               "Alhena",
+               "Alzirr",
+               "Castor",
+               "Jishui",
+               "Mebsuta",
+               "Mekbuda",
+               "Pollux",
+               "Propus",
+               "Tejat",
+               "Wasat"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Cancer",
+            "img":"media/Cancer",
+            "discription":"In Greek mythology, the constellation Cancer is associated with the crab sent by Hera to kill Heracles. In different versions of the myth, the crab is either kicked into the sky by Heracles or placed among the stars by Hera after getting crushed by the Greek hero.",
+            "composition":[
+               "Acubens",
+               "Asellus Australis",
+               "Asellus Borealis",
+               "Copernicus",
+               "Gakyid",
+               "Meleph",
+               "Nahn",
+               "Piautos",
+               "Tarf",
+               "Tegmine"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Leo",
+            "img":"media/Leo",
+            "discription":"Leo represents the lion and is usually associated with the Nemean lion in Greek mythology. The constellation was first catalogued by the Greek astronomer Ptolemy in the 2nd century.",
+            "composition":[
+               "Adhafera",
+               "Algieba",
+               "Alterf",
+               "Chertan",
+               "Denebola",
+               "Dingolay",
+               "Formosa",
+               "Moriah",
+               "Rasalas",
+               "Regulus",
+               "Sagarmatha",
+               "Subra",
+               "Zosma"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Virgo",
+            "img":"media/Virgo",
+            "discription":"First catalogued by the Greek astronomer Ptolemy in the 2nd century. It contains Spica, one of the brightest stars in the night sky. It also contains the autumn equinox point, which lies close to the star Beta Virginis. This is one of the two points in the sky (the other being in the constellation Pisces) where the celestial equator intersects with the ecliptic. Virgo is the second largest constellation in the sky. The only constellation larger in size is Hydra.",
+            "composition":[
+               "Elgafar",
+               "Flegetonte",
+               "Heze",
+               "Kang",
+               "Khambalia",
+               "Lich",
+               "Malmok",
+               "Minelauva",
+               "Mönch",
+               "Porrima",
+               "Spica",
+               "Syrma",
+               "Vindemiatrix",
+               "Zaniah",
+               "Zavijava"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Libra",
+            "img":"media/Libra",
+            "discription":"Libra is the only zodiac constellation that represents an object, not an animal or a character from mythology. The four brightest stars in the constellation form a quadrangle. Alpha and Beta Librae mark the scales’ balance beam, and Gamma and Sigma Librae represent the weighing pans. ",
+            "composition":[
+                "Brachium",
+                "Zubenelgenubi",
+                "Zubenelhakrabi",
+                "Zubeneschamali"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Scorpius",
+            "img":"media/Scorpio",
+            "discription":"First catalogued by the Greek astronomer Ptolemy in the 2nd century. Scorpius pre-dates the Greeks, and is one of the oldest constellations known. The Sumerians called it GIR-TAB, or “the scorpion,” about 5,000 years ago.",
+            "composition":[
+               "Acrab",
+               "Alniyat",
+               "Antares",
+               "Dìwö",
+               "Dschubba",
+               "Fang",
+               "Fuyue",
+               "Iklil",
+               "Jabbah",
+               "Larawag",
+               "Lesath",
+               "Paikauhale",
+               "Pipirima",
+               "Rapeto",
+               "Sargas",
+               "Sharjah",
+               "Shaula",
+               "Xamidimura"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Sagittarius",
+            "img":"media/Sagittarius",
+            "discription":"Sagittarius is usually depicted as a centaur holding a bow and arrow. It is also associated with Crotus, the satyr who kept company of the Muses on Mount Helicon. Sagittarius is one of the largest southern constellations. It is easy to find because it lies on the Milky Way and its brightest stars form an asterism known as the Teapot. Like other zodiac constellations, Sagittarius was first catalogued by the Greek astronomer Ptolemy in the 2nd century.",
+            "composition":[
+               "Ainalrami",
+               "Albaldah",
+               "Alnasl",
+               "Arkab Posterior",
+               "Arkab Prior",
+               "Ascella, Belel",
+               "Gumala",
+               "Kaus Australis",
+               "Kaus Borealis",
+               "Kaus Media",
+               "Nunki",
+               "Pincoya",
+               "Polis",
+               "Rukbat",
+               "Sika",
+               "Terebellum"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Capricornus",
+            "img":"media/Capricorn",
+            "discription":"Capricornus was first catalogued by the Greek astronomer Ptolemy in the 2nd century. The constellation is associated with two mythical creatures from Greek legends: the deity Pan and the goat Amalthea, who suckled Zeus when he was very young.",
+            "composition":[
+               "Algedi",
+               "Alshat",
+               "Dabih",
+               "Deneb Algedi",
+               "Nashira"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Aquarius",
+            "img":"media/Aquarius",
+            "discription":"Aquarius lies in the region of the sky which is sometimes referred to as the Sea, because it contains a number of other constellations with names associated with water; Pisces (the fish), Eridanus (the river), and Cetus (the whale), among others. Like other zodiac constellations, Aquarius was catalogued by the Greek astronomer Ptolemy in the 2nd century.",
+            "composition":[
+               "Albali",
+               "Ancha",
+               "Bosona",
+               "Bunda",
+               "Lionrock",
+               "Márohu",
+               "Sadachbia",
+               "Sadalmelik",
+               "Sadalsuud",
+               "Situla",
+               "Skat"
+            ]
+         }},
+         {"constellationDetails":{
+            "name":"Pisces",
+            "img":"media/Pisces",
+            "discription":"Pisces lies between Aries constellation to the east and Aquarius to the west. The two celestial fish represent Venus and Cupid in Roman mythology, who transformed themselves into fish in order to escape the monster Typhon. The Vernal equinox, the point at which the Sun moves to the northern hemisphere across the equator every year, is currently located in Pisces.",
+            "composition":[
+               "Alpherg",
+               "Alrescha",
+               "Bélénos",
+               "Citadelle",
+               "Ebla",
+               "Fumalsamakah",
+               "Parumleo",
+               "Revati",
+               "Torcular"
+            ]
+         }
+      }]
+      }
+   
+

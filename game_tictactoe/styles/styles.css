@@ -1,0 +1,93 @@
+.wrapper {
+  position: fixed;
+
+  z-index: 99;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 500px;
+  height: 500px;
+  margin: 60px;
+}
+
+svg {
+  position: fixed;
+  height: 100vh;
+  width: 50vw;
+}
+
+@keyframes shift {
+  from {
+    fill: cadetblue;
+  }
+  to {
+    fill: cornflowerblue;
+  }
+}
+.gameboard {
+  fill: cadetblue;
+  stroke: black;
+  stroke-width: 5;
+  animation-name: shift;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+.hash {
+  fill: orangered;
+  stroke: black;
+  stroke-width: 0;
+}
+
+.space {
+  /* background-color: aqua; */
+  height: 150px;
+  width: 150px;
+  /* opacity: 0; */
+  text-align: center;
+  line-height: 125px;
+  font-size: 75px;
+  font-family: Impact, Charcoal, sans-serif;
+  color: whitesmoke;
+}
+.space:hover {
+  cursor: pointer;
+}
+
+@keyframes hover {
+  from {
+    color: cadetblue;
+  }
+  to {
+    color: cornflowerblue;
+  }
+}
+
+.game_info {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50vw;
+
+  /* background-color: aqua; */
+}
+.game_info h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-family: Impact, Charcoal, sans-serif;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 60px;
+}
+
+.game_info h2 {
+  text-transform: capitalize;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.game_info button {
+  background-color: ;
+  color: orangered;
+  font-size: large;
+  padding: 5px 5px;
+}

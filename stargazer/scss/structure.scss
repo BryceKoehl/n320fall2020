@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.container {
+  height: 768px;
+  width: 1024px;
+  margin: auto;
+  background-color: rgba(0, 0, 30, 0.1);
+
+  background-image: linear-gradient(
+      rgba(0, 00, 0, 0.1),
+      rgba(0, 0, 30, 0.1),
+      rgba(0, 00, 0, 0.1)
+    ),
+    url(../media/nightSky.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+
+  .water {
+    margin: auto;
+    background: none;
+    display: block;
+    z-index: 1;
+    position: relative;
+    shape-rendering: auto;
+    width: 1024px;
+    height: 768px;
+    margin-top: 13.25%;
+  }
+}

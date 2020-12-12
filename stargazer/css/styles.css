@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.container {
+  height: 768px;
+  width: 1024px;
+  margin: auto;
+  background-color: rgba(0, 0, 30, 0.1);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 30, 0.1), rgba(0, 0, 0, 0.1)), url(../media/nightSky.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .water {
+  margin: auto;
+  background: none;
+  display: block;
+  z-index: 1;
+  position: relative;
+  shape-rendering: auto;
+  width: 1024px;
+  height: 768px;
+  margin-top: 13.25%;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  height: 500px;
+  width: 1024px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.stars h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.stars .row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.stars .row .star {
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stars .row .star:hover {
+  animation: rotation 10s infinite linear;
+}
+.stars .row .Aquarius {
+  background-image: url(../media/Aquarius.png);
+}
+.stars .row .Aries {
+  background-image: url(../media/Aries.png);
+}
+.stars .row .Cancer {
+  background-image: url(../media/Cancer.png);
+}
+.stars .row .Capricorn {
+  background-image: url(../media/Capricorn.png);
+}
+.stars .row .Gemini {
+  background-image: url(../media/Gemini.png);
+}
+.stars .row .Leo {
+  background-image: url(../media/Leo.png);
+}
+.stars .row .Libra {
+  background-image: url(../media/Libra.png);
+}
+.stars .row .Pisces {
+  background-image: url(../media/Pisces.png);
+}
+.stars .row .Scorpio {
+  background-image: url(../media/Scorpio.png);
+}
+.stars .row .Taurus {
+  background-image: url(../media/Taurus.png);
+}
+.stars .row .Virgo {
+  background-image: url(../media/Virgo.png);
+}
+.stars .row .Sagittarius {
+  background-image: url(../media/Sagittarius.png);
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#detailsView {
+  display: none;
+  background-color: rgba(41, 58, 67, 0.8);
+  position: absolute;
+  height: 450px;
+  width: 900px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: row;
+  justify-content: space-between;
+  animation: move 2s;
+}
+#detailsView .text {
+  margin-right: 25px;
+  margin-top: 25px;
+  width: 400px;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+#detailsView .text button {
+  padding: 10px 15px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background-color: #2c3238;
+  color: #d3dee3;
+  font-size: 16px;
+}
+#detailsView button:hover {
+  background-color: #d3dee3;
+  color: #2c3238;
+}
+#detailsView button:hover h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+#detailsView button:hover p {
+  font-size: large;
+}
+
+@keyframes move {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 45%;
+  }
+}

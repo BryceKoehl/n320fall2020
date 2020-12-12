@@ -1,0 +1,81 @@
+.stars {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  height: 500px;
+  width: 1024px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1 {
+    color: white;
+    text-transform: uppercase;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+
+    .star {
+      height: 150px;
+      width: 150px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    //allows the stars to rotate to show a user which star they're hovering.
+    .star:hover {
+      animation: rotation 10s infinite linear;
+    }
+
+    .Aquarius {
+      background-image: url(../media/Aquarius.png);
+    }
+
+    .Aries {
+      background-image: url(../media/Aries.png);
+    }
+    .Cancer {
+      background-image: url(../media/Cancer.png);
+    }
+    .Capricorn {
+      background-image: url(../media/Capricorn.png);
+    }
+    .Gemini {
+      background-image: url(../media/Gemini.png);
+    }
+    .Leo {
+      background-image: url(../media/Leo.png);
+    }
+    .Libra {
+      background-image: url(../media/Libra.png);
+    }
+    .Pisces {
+      background-image: url(../media/Pisces.png);
+    }
+    .Scorpio {
+      background-image: url(../media/Scorpio.png);
+    }
+    .Taurus {
+      background-image: url(../media/Taurus.png);
+    }
+    .Virgo {
+      background-image: url(../media/Virgo.png);
+    }
+    .Sagittarius {
+      background-image: url(../media/Sagittarius.png);
+    }
+
+    //allows the stars to rotate to show a user which star they're hovering.
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+  }
+}
